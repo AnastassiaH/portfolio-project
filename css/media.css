@@ -1,0 +1,179 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    
+    #about_me .about_me_desc{
+        grid-template-columns: 1fr;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    #about_me .about_me_desc li{
+        margin-bottom: 2px;
+    }
+    
+    #about_me .about_me_desc p,
+    #about_me .about_me_desc li{
+        line-height: 25px;
+    }
+    
+    footer{
+        padding: 20px 10px 10px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    
+    header{
+        padding-top: 15px;
+    }
+    
+    header .top_menu .languages{   
+    text-align: left;
+    margin-top: 17px !important;
+    }
+    
+    header .top_menu #responcive-menu ul{
+        width: 100%;
+    }
+    header .top_menu #responcive-menu ul li{
+        float: none;
+        overflow: hidden;
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    
+    .navbar{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+    
+    header .top_menu #responcive-menu{
+        float: none;
+        width: 100%;
+    }
+    
+    header .nav > li > a:focus,
+    header .nav > li > a:hover{
+        border-radius: 0;
+    }
+    
+    .navbar-collapse {
+        box-shadow: none !important;
+    }
+    
+    .navbar{
+        margin-bottom: 0 !important;
+    }
+    
+    .navbar-nav{
+        margin: 0.5px -15px !important;
+    }
+    
+    #about_me .about_me_desc{
+        width: 95%;    
+    }
+    
+    .little_wrap{
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .little_wrap{
+        margin-top: 20px;
+    }
+    
+    .cont_item{
+        margin-left: 20px;
+    }
+    
+    #about_me button.up{
+        top: 10px;
+        right: 10px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    header .main_wrapper .main_desc .main_centred .main_text{
+        width: 80%;
+    }
+    
+    .little_wrap{
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    #works .tab-content .tab-item{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 15px;
+    }
+    
+    #contacts form label{
+        left: 5%;
+    }
+    
+    #contacts form .field{
+        padding-left: 2%;
+    }
+    
+    #contacts .contacts_item .cont_item{
+        text-align: center;
+    }
+    
+    #contacts form{
+        margin-top: 30px;
+    }
+    
+    #resume .resume_desc{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    #resume .resume_desc p{
+        line-height: 20px;
+    }
+    
+    footer .footer_item{
+        width: 100%;
+        text-align: center;
+    }
+    
+    footer .footer_item ul{
+        display: inline-block;
+        float: none;
+    }
+    
+    footer .social_wrap{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width : 600px){
+    
+    #contacts .contacts_item{
+        width: 100%;
+    }
+    #contacts .cont_item{
+        text-align: center;
+    }
+    
+    #about_me .about_me_desc,
+    #resume .resume_desc,
+    #contacts .grid_wrap{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width : 450px){
+    #about_me .about_me_desc{
+        width: 100%;
+    }
+    
+    #about_me .little_wrap{
+        padding: 10px 0;
+    }
+}
