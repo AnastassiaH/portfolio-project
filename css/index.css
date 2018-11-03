@@ -275,7 +275,8 @@ header .menu_open {
       font-size: 14px; }
 
 #works {
-  padding: 50px 0 70px; }
+  padding: 50px 0 70px;
+  background-color: white;}
   
 #works .nav-tabs {
     border: none;
@@ -324,7 +325,7 @@ header .menu_open {
 }
 
 #works .tab-content .tab-item:nth-child(2){
-    background-image: url(../img/FishHunter.png);
+    background-image: url(../img/fish_hunter.png);
 }
 
 #works .tab-content .tab-item:nth-child(3),
@@ -337,7 +338,7 @@ header .menu_open {
 }
 
 #works .tab-content .tab-item:nth-child(5){
-    background-image: url(../img/Minima.png);
+    background-image: url(../img/minima.png);
 }
     
 #works .tab-content .image {
@@ -372,7 +373,7 @@ header .menu_open {
 
 #contacts {
   padding: 50px 0 70px;
-  background-image: url(../img/wood-table-hut-cups.jpeg);
+  background-image: url(../img/wood-table-hut-cups.jpg);
   background-size: cover; }
 
 #contacts .contacts_h h2 {
