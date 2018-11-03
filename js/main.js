@@ -26,7 +26,7 @@ $(document).ready(function(){
     };
     
     //scroll
-    $(".header a").mPageScroll2id();
+    $("header a").mPageScroll2id();
     
     // up button
     $('.up').click(function(){
