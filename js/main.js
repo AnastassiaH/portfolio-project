@@ -76,4 +76,13 @@ $(function(){
         });
     });
     
+    // myAge
+    let today = new Date();
+    let birthdate = new Date("1995/11/7");
+    let myAge = Math.floor((today - birthdate)/(365.25*24*60*60*1000));
+    
+    document.getElementById("myAge").innerHTML = myAge;
+    
+    
+    
 });
