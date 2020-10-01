@@ -25,7 +25,7 @@ ol, ul {
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 0;і
   outline: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -67,7 +67,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  max-height: 700px;
+  min-height: 700px;
   overflow: hidden;
   position: relative;
   padding-top: 30px;
@@ -119,6 +119,11 @@ header .top_menu #responcive-menu ul li a {
           padding: 0 20px !important;
           background-color: rgba(59, 70, 62, 0.8);
           transition: all 1s; }
+
+header .top_menu #responcive-menu ul li:nth-child(2){
+          min-width: 120px;
+}
+
 
 header .top_menu #responcive-menu ul li a:hover {
           background-color: rgba(79, 99, 100, 0.8); }
